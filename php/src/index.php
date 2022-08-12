@@ -1767,9 +1767,8 @@ Unzip the latest ckeditor release zip from https://github.com/ckeditor/ckeditor4
 			Vvveb.SectionList.init();
 			var pages =
 				[
-					{ name: "narrow-jumbotron", title: "Jumbotron", url: "demo/narrow-jumbotron/index.html", file: "demo/narrow-jumbotron/index.html", assets: ['demo/narrow-jumbotron/narrow-jumbotron.css'] },
 					//uncomment php code below and rename file to .php extension to load saved html files in the editor or use editor.php
-					/*
+					
 					<?php 
 					   $htmlFiles = glob('{my-pages/*.html,demo/*\/*.html, demo/*.html}',  GLOB_BRACE);
 					   foreach ($htmlFiles as $file) { 
@@ -1785,7 +1784,7 @@ Unzip the latest ckeditor release zip from https://github.com/ckeditor/ckeditor4
 					?>
 					{name:"<?php echo ucfirst($filename);?>", file:"<?php echo ucfirst($filename);?>", title:"<?php echo ucfirst($filename);?>",  url: "<?php echo $url;?>", folder:"<?php echo $folder?>"},
 					<?php } ?>
-					*/
+					
 				];
 
 			Vvveb.FileManager.addPages(pages);
